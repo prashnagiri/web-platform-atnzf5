@@ -33,5 +33,21 @@ p:nth-child(2) strong {
   background: pink;
 }
 a {
-   background: white; 
+   
+  text-decoration: none;
+}
+nav li {
+  list-style-type: none;
+}
+nav ul{
+  padding: 0;
+}
+.block-div{
+  background: turquoise;
+  display: block;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 1rem;
+  margin: 2rem;
 }
